@@ -38,6 +38,7 @@
 
             console.log(soma(1, 2));*/
 
+            /* Condicionais
             function retornaSexo1(sexo){
                 if(sexo === 'M')
                     return 'Masculino'
@@ -58,7 +59,21 @@
                     return 'Não Definido';
                 };
             };
-            console.log(retornaSexo2('F'));
+            console.log(retornaSexo2('F'));*/
+
+            var sexo = 'M', idade = 24, masculino = sexo === 'M';
+            if(sexo === 'M' && idade >= 24){
+                console.log('AND');
+            }
+            if(sexo === 'M' || idade >= 24){
+                console.log('OR');
+            }
+            if(sexo != 'F'){
+                console.log('NOT');
+            }
+
+            console.log(masculino);
+
         </script>
     </body>
 </html>
