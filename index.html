@@ -31,11 +31,34 @@
             console.log(resultado);*/
 
             
+            /* funções
             function soma(numero1, numero2){
                 return numero1 + numero2;
             };
 
-            console.log(soma(1, 2));
+            console.log(soma(1, 2));*/
+
+            function retornaSexo1(sexo){
+                if(sexo === 'M')
+                    return 'Masculino'
+                if(sexo === 'F')
+                    return 'Feminino'
+                else 
+                    return 'Não Definido'
+            };
+            console.log(retornaSexo1('M'));
+
+            function retornaSexo2(sexo){
+                switch(sexo){
+                case 'M':
+                    return 'Masculino';
+                case 'F':
+                    return 'Feminino';
+                default:
+                    return 'Não Definido';
+                };
+            };
+            console.log(retornaSexo2('F'));
         </script>
     </body>
 </html>
