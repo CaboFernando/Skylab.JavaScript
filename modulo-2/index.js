@@ -18,15 +18,22 @@
 //     alert(inputElement.value);
 // };
 
-var linkElement = document.createElement('a');
-linkElement.setAttribute('href', 'https://skylab.rocketseat.com.br/');
-linkElement.setAttribute('title', 'Site da Skylab');
 
-var textELement = document.createTextNode('Acessar site da Skylab');
-linkElement.appendChild(textELement);
+// var linkElement = document.createElement('a');
+// linkElement.setAttribute('href', 'https://skylab.rocketseat.com.br/');
+// linkElement.setAttribute('title', 'Site da Skylab');
 
-var containerElement = document.querySelector('#app');
-containerElement.appendChild(linkElement);
+// var textELement = document.createTextNode('Acessar site da Skylab');
+// linkElement.appendChild(textELement);
 
-var inputElement = document.querySelector('#nome');
-containerElement.removeChild(inputElement);
+// var containerElement = document.querySelector('#app');
+// containerElement.appendChild(linkElement);
+
+// var inputElement = document.querySelector('#nome');
+// containerElement.removeChild(inputElement);
+
+var boxElement = document.querySelector('.box');
+
+boxElement.style.width = 100;
+boxElement.style.height = 100;
+boxElement.style.backgroundColor = '#f00';
